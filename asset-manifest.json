@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/colorpalette/static/css/main.e0e47f91.css",
-    "main.js": "/colorpalette/static/js/main.50345bdd.js",
-    "static/media/LibreBaskerville-Regular.ttf": "/colorpalette/static/media/LibreBaskerville-Regular.715e9cea90f54d5a4093.ttf",
-    "index.html": "/colorpalette/index.html",
-    "main.e0e47f91.css.map": "/colorpalette/static/css/main.e0e47f91.css.map",
-    "main.50345bdd.js.map": "/colorpalette/static/js/main.50345bdd.js.map"
+    "main.css": "/ColorPalette/static/css/main.31d0f9d3.css",
+    "main.js": "/ColorPalette/static/js/main.50345bdd.js",
+    "static/media/LibreBaskerville-Regular.ttf": "/ColorPalette/static/media/LibreBaskerville-Regular.715e9cea90f54d5a4093.ttf",
+    "index.html": "/ColorPalette/index.html",
+    "main.31d0f9d3.css.map": "/ColorPalette/static/css/main.31d0f9d3.css.map",
+    "main.50345bdd.js.map": "/ColorPalette/static/js/main.50345bdd.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0e47f91.css",
+    "static/css/main.31d0f9d3.css",
     "static/js/main.50345bdd.js"
   ]
 }
