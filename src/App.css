@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url(./LibreBaskerville-Regular.ttf);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
+  width: 90%;
+  padding: 15px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: stretch;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  border-radius: 50px;
+  border: 1px #000 solid;
+  margin:5% auto;
+}
+button,input,select{
+  margin: 5px;
+  border-radius: 50px;
+  padding:5px;
+
+}
+button {
+  border-radius: 50px;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, .5);
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  -webkit-text-stroke-color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+select {
+  font-size: 1.5rem;
+
+}
+
+option {
+  background-color: #000;
+  color: #fff;
+}
+input{
+  width:50px;
+  height:50px;
+}
+
+main {
+  height: 250px;
+  left: 72px;
+  top: 80px;
+  border-radius: 0px;
+}
+
+.colors {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.color {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 5px #000 double;
+  margin: 5px;
+}
+.color:hover{
+  padding:5px;
+  margin:0px;
+}
+
+
+h1{
+  font-size: 1.2rem;
+  display: block;
+  text-align: center;
+  margin: 35px auto;
+}
+
+h2{
+  font-size:1.5rem;
+}
+
+h3{
+  font-size: 1.2rem;
+  display: block;
+  text-align: center;
+  margin: 35px auto;
+  border:5px double #000;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, .5);
+  width:50%;
+  padding:5px;
+}
+footer{
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  height:50px;
+  width:100%;
+  background-color:rgba(0, 0, 0, .5);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+     text-align:center;
+}
+@media (min-width:750px) {
+  .colors{
+      width:50%;
+      margin:0 auto;
   }
 }
